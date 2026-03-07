@@ -1,12 +1,24 @@
-#include <stdio.h>
 
 //  gcc test.c;./a.out
+#include <stdio.h>
 
-int main(void) {
-    int value = 2000000000;
-    int* pointer = &value;
+int square(int x) {
+    return x * x;
+}
 
-    printf("%p\n", pointer);
-    printf("value via pointer: %d, value direct: %d\n", *pointer, value);
+int main() {
+
+    int a = 5;
+    double b = 3.14;
+    char name[] = "C";
+
+    if (a > 0) {
+        printf("%s square: %d\n", name, square(a));
+    }
+
+    for (int i = 0; i < 3; i++) {
+        printf("i = %d\n", i);
+    }
+
     return 0;
 }
