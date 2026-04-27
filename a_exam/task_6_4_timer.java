@@ -6,9 +6,11 @@ public class task_6_4_timer {
 public static void main(String[] args) {
     try (Timer timer = new Timer()) {
         timer.start();
+
         // Code block to be timed
         for (int i = 0; i < 1000000; i++) {
-            // Simulate some work
+        // Simulate some work
+        
         }
     } catch (Exception e) {
         e.printStackTrace();
