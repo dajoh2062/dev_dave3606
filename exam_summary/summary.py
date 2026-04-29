@@ -12,6 +12,10 @@ def main():
 
     # String builder
 
+
+    # Struct pack and unpack
+
+    # file descriptor
     
     return
 
